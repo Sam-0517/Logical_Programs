@@ -23,7 +23,6 @@ public class CouponNumber {
 				coupon[num1] = true;
 				System.out.println(num1);
 			}
-
 		}
 		System.out.println("count of while loop executed is  " + count);
 
