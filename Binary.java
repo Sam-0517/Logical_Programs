@@ -29,9 +29,10 @@ public class Binary {
 		System.out.println("Padding of Binary is " + binary);
 		String nibble1 = binary.substring(0, 4);
 		String nibble2 = binary.substring(4, binary.length());
-		
+
 		binarySwap = nibble2 + nibble1;
-		System.out.println("After swapping nibbles new number is "+binarySwap);
+		System.out
+				.println("After swapping nibbles new number is " + binarySwap);
 		int result = Integer.parseInt(binarySwap);
 		int decimal = 0;
 		int pow = 0;
@@ -42,7 +43,8 @@ public class Binary {
 			result = result / 10;
 			pow++;
 		}
-		System.out.println("Decimal number for "+binarySwap+" is " + decimal);
+		System.out.println("Decimal number for " + binarySwap + " is "
+				+ decimal);
 
 	}
 }
