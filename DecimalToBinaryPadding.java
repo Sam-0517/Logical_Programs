@@ -18,13 +18,14 @@ public class DecimalToBinaryPadding {
 			num = num / 2;
 			i++;
 		}
-		System.out.println("Binary number is "+binary);
-		while (binary.length() <32) {
-			
+		System.out.println("Binary number is " + binary);
+		while (binary.length() < 32) {
+
 			binary = "0" + binary;
 		}
-		 
-		System.out.println("Padding of Binary number for 4 bytes(32 bit) is " + binary);
+
+		System.out.println("Padding of Binary number for 4 bytes(32 bit) is "
+				+ binary);
 	}
 
 	public static void main(String[] args) {
